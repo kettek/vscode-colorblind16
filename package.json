@@ -1,0 +1,25 @@
+{
+    "name": "kettek-colorblind16",
+    "displayName": "kettek-colorblind16",
+    "description": "Colorblind friendly 16 color(8 bright/non-bright) theme. Should cover Deuteranopia and Tritanopia but only dev-tested under Deuteranomaly.",
+    "version": "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kettek/vscode-colorblind16.git"
+    },
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "kettek-colorblind16",
+                "uiTheme": "vs-dark",
+                "path": "./themes/kettek-colorblind16-color-theme.json"
+            }
+        ]
+    }
+}
